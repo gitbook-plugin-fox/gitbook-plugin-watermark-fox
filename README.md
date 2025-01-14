@@ -12,24 +12,28 @@ Generate custom watermark information on every GitBook html page in order to pro
 Default configuration listed as below:
 
 ```js
-{
-    content: 'www.foo.com',
+pluginsConfig: {
+  'watermark-fox': {
+    enable: true,
     width: 200,
     height: 200,
-    fontColor: '#d0d0d0',
-    enable: true
+    content: 'www.gitbook.com',
+    fontColor: '#d0d0d0'
+   }
 }
 ```
 
 but we can modify it based on our custom requirements according to [config](https://zhensherlock.github.io/watermark-js-plus/guide/custom/configs.html):
 
 ```js
-{
-    content: 'www.foo.com',
+pluginsConfig: {
+  'watermark-fox': {
+    enable: true,
     width: 200,
     height: 200,
-    fontColor: '#f5f5f5',
-    enable: true
+    content: 'www.foo.com',
+    fontColor: '#f1f1f1'
+   }
 }
 ```
 
