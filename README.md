@@ -11,7 +11,7 @@ Generate custom watermark information on every GitBook html page in order to pro
 
 Default configuration listed as below:
 
-```json
+```js
 {
     content: 'www.foo.com',
     width: 200,
@@ -23,7 +23,7 @@ Default configuration listed as below:
 
 but we can modify it based on our custom requirements according to [config](https://zhensherlock.github.io/watermark-js-plus/guide/custom/configs.html):
 
-```json
+```js
 {
     content: 'www.foo.com',
     width: 200,
