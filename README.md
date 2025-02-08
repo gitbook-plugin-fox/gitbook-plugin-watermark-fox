@@ -1,6 +1,6 @@
 # gitbook-plugin-watermark-fox
 
-Generate custom watermark information on every GitBook html page in order to protect copyright.
+Create a GitBook plguin based on [**watermark-js-plus**](https://zhensherlock.github.io/watermark-js-plus/),it can generate custom watermark information on every GitBook html page in order to protect copyright.
 
 ## Usage
 
